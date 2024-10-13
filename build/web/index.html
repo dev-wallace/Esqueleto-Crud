@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Descrição do meu site. Aqui você pode se cadastrar e salvar produtos.">
-    
+  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <link rel="stylesheet" href="../web/paginas/style.css">
-    
+
     <title>Meu Site</title>
-    <link rel="icon" href="caminho/para/seu/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-      <h2 class="logo">Prova PI<img src="" alt=""></h2>
-              <nav class="navegation">
-                <a href="#">Consultar</a>
-                <a href="#">Excluir</a>
-                <a href="#">Salvar</a>
-          
-              </nav>
-        
-    </header>  
+       
+        <h2 class="logo">Prova PI</h2>
+
+
+        <nav class="navegation">
+            <ul id="nav_list">
+              <li class="nav-item">
+                <a href="../web/paginas/cadastrar.html">Cadastrar</a>
+            </li>
+                <li class="nav-item">
+                    <a href="../web/paginas/consultar_produto.html">Consultar</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../web/paginas/excluir_produto.html">Excluir</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../web/paginas/listar_produtos.jsp">Listar</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
